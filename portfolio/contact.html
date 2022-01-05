@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | アクセス</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body id="contact">
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/my steps.png" alt="ロゴ">
+            </a>
+        </div>
+
+        <!------メニューバー---->
+        <input type="checkbox" id="hamburger">
+        <label for="hamburger">
+            <span class="burger">
+                <span class="bar"></span>
+            </span>
+        </label>
+        <label class="light-dark" for="hamburger"></label>
+        <div id="menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skill.html">Skill</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <nav>
+            <ul class="global-nav">
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="skill.html">Skill</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="wrap">
+        <div class="content">
+            <div class="main-center">
+                <h1>Contact</h1>
+                <p>「My Steps」へのアクセス方法、お問い合わせフォームページです。お気軽にお問い合わせください。</p>
+                <section class="access clearfix">
+                    <h2 class="icon">Access</h2>
+                    <table>
+                        <tr>
+                            <th>所在地住所</th>
+                            <td>〒444-1336<br>愛知県高浜市</td>
+                        </tr>
+                        <tr>
+                            <th>電話番号</th>
+                            <td>090-6649-9517</td>
+                        </tr>
+                        <tr>
+                            <th>電車でのアクセス</th>
+                            <td>名古屋鉄道三河線「吉浜駅」より徒歩5分</td>
+                        </tr>
+                    </table>
+                        <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52335.47205086659!2d136.96599386895483!3d34.93236449394203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60049b18a44dafbd%3A0x8027be8da4f8bb0e!2z5oSb55-l55yM6auY5rWc5biC!5e0!3m2!1sja!2sjp!4v1639119802189!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </section>
+                <section>
+                    <h2 class="icon">Contact form</h2>
+                    <div class="form">
+                        <form>
+                            <dl>
+                                <dt><span class="required">お名前</span></dt>
+                                <dd><input type="text" name="name" class="name" required></dd>
+                                <dt><span class="required">メールアドレス</span></dt>
+                                <dd><input type="email" name="email" class="email" required></dd>
+                                <dt>お電話番号</dt>
+                                <dd><input type="tel" name="tel" class="tel"></dd>
+                                <dt>お問い合わせ種別</dt>
+                                <dd>
+                                    <select name="type" class="type">
+                                        <option value="訪問のお問い合わせ">訪問のお問い合わせ</option>
+                                        <option value="その他お問い合わせ">その他お問い合わせ</option>
+                                    </select>
+                                </dd>
+                                <dt>ご希望ご連絡方法</dt>
+                                <dd>
+                                    <input type="radio" name="contact" value="Eメール">Eメール
+                                    <input type="radio" name="contact" value="Eメール">お電話
+                                </dd>
+                                <dt>メッセージ</dt>
+                                <dd>
+                                    <textarea name="message" class="message"></textarea>
+                                </dd>
+                            </dl>
+                            <div class="transmission-btn">
+                                <button type="submit" class="btn">送信</button>
+                            </div>
+                        </form>
+                        <div class="attention">
+                            <p>※「<span class="required"></span>」の付いている項目は必須項目です。<br>
+                                ※メッセージ送信後、48時間以内に送信者よりご連絡いたします。</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <small>(C)2022 matsuzaki-ryuga.</small>
+    </footer>
+</body>
+</html>
